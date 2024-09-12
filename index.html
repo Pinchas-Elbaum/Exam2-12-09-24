@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h2>BATTALOIN FORCE MANAGMENT</h2>
+    <hr>
+    <div id="div1">
+        <form >
+        
+            <label for="fullname"></label>
+            <input type="text" id="fullname" name="fullname" placeholder ="Full Name" required><br><br>
+
+            <label for="rank"></label>
+            <input type="text" id="rank" name="rank" placeholder ="rank" required><br><br>
+
+            <label for="position"></label>
+            <input type="text" id="position" name="position" placeholder ="position" required><br><br>
+
+            <label for="platon"></label>
+            <input type="text" id="platon" name="platon" placeholder ="platon" required><br><br>
+
+            <label for="missionTime"></label>
+            <input type="number" id="missionTime" name="missionTime" placeholder ="missionTime" required> <br><br>
+
+
+            <label for="status"></label>
+
+                <select name="status" id="status">
+                <option value="Active">Active</option>
+                <option value="Reserve">Reserve</option>
+                <option value="Retired">Retired</option>
+                </select><br><br>
+            
+            <input id="submit" type="submit" value="Add Personal" >
+
+    
+        </form>
+          
+    </div>
+
+    <h2>FORCES OVERVIEW</h2>
+    <hr>
+    
+    <div>
+        <table>
+            <tr>
+                <th>Full Name</th>
+                <th>RANK</th>
+                <th>POSITION</th>
+                <th>PLATOON</th>
+                <th>STATUS</th>
+                <th id="actions">ACTIONS</th>
+              </tr>
+              
+        </table>
+    </div>
+</body>
+</html>

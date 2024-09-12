@@ -1,0 +1,43 @@
+body{
+    background-color: #2C3E50;
+    color: #28A55F;
+    text-align: center;
+    position: relative;
+   
+}
+#div1{
+    
+    background-color: #34495E;
+    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+input{
+    width: 70%;
+    background-color: #2C3E50;
+}
+#submit{
+    color: #28A55F;
+}
+
+hr{
+    color : #28A55F;
+}
+select{
+    background-color: #2C3E50;
+}
+th{
+    color: #28A55F;
+    background-color: white ;
+    padding: 15px;
+    margin: 10px;
+}
+tr{
+    margin: 100px;
+}
+td{
+    border: #28A55F;
+    
+}
+#actions{
+    width: 50px;}
